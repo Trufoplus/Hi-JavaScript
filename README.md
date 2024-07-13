@@ -2,12 +2,11 @@
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)](https://developer.mozilla.org/es/docs/Web/JavaScript) [![NodeJS](https://img.shields.io/badge/NODEJS-v20+-green?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=101010)](https://nodejs.org/)
 
-## Curso para aprender el lenguaje de programación JavaScript desde cero y para principiantes
+## Aprendiendo el lenguaje de programación JavaScript desde cero
 
 ![](./Images/header.jpg)
 
-### Proyecto realizado durante emisiones en directo desde [Twitch](https://twitch.tv/mouredev)
-> ##### Si consideras útil el curso, apóyalo haciendo "★ Star" en el repositorio. ¡Gracias!
+### Proyecto realizado durante emisiones en directo de Mouredev desde [Twitch](https://twitch.tv/mouredev)
 
 ## Enlaces de interés
 
@@ -20,6 +19,5 @@
 * [Libro Eloquent JavaScript](https://eloquentjavascript.net/)
 * [Playground](https://runjs.app/play)
 * [Node.js](https://nodejs.org)
-* Exploradores: [Chrome](https://www.google.com/intl/es_es/chrome/) | [Brave](https://brave.com/download/)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Guía de estilo](https://google.github.io/styleguide/jsguide.html)
