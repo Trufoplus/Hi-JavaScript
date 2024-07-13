@@ -1,12 +1,6 @@
 # Hi JavaScript
 
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)](https://developer.mozilla.org/es/docs/Web/JavaScript) [![NodeJS](https://img.shields.io/badge/NODEJS-v20+-green?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=101010)](https://nodejs.org/)
-
-## Aprendiendo el lenguaje de programación JavaScript desde cero
-
-![](./Images/header.jpg)
-
-### Proyecto realizado durante emisiones en directo de Mouredev desde [Twitch](https://twitch.tv/mouredev)
+#### Aprendiendo el lenguaje de programación JavaScript desde cero
 
 ## Enlaces de interés
 
@@ -21,3 +15,6 @@
 * [Node.js](https://nodejs.org)
 * [Visual Studio Code](https://code.visualstudio.com/)
 * [Guía de estilo](https://google.github.io/styleguide/jsguide.html)
+
+
+#### Proyecto realizado durante emisiones en directo de Mouredev desde [Twitch](https://twitch.tv/mouredev)
