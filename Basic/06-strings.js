@@ -21,6 +21,7 @@ console.log(greeting.includes('Pepe')); // Te dice si la cadena incluye la palab
 console.log(greeting.slice(0, 5)); // trocea la cadena de texto: 'Hola,'
 console.log(greeting.slice(5)); // muestra desde el índice 5 en adelante: ' Dani!'
 console.log(greeting.replace('Dani', 'Alba')); // reemplaza 'Dani' por 'Alba': 'Hola, Alba!'
+console.log(greeting.replace(/ /g, '-')); // Reemplaza todos los espacios en blanco de un string por guiones
 
 // Template literals (plantillas literales)
 
