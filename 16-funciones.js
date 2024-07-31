@@ -1,123 +1,114 @@
 //////////////// FUNCIONES
 /*
-Es un bloque de codigo que realiza una operacione especifica
-y para ejecutarse tiene que ser llamado
+Es un bloque de código que realiza una operación específica
+y para ejecutarse tiene que ser llamado.
 */
 
-function myFunc () {
-    console.log('¡Hola, función!')
-} // Esta funcion lo unico que hace en saludar
+function myFunc() {
+    console.log('¡Hola, función!');
+} // Esta función lo único que hace es saludar.
 
-myFunc() // Invocamos la funcion para que se ejecute
+myFunc(); // Invocamos la función para que se ejecute.
 
 for (let i = 0; i < 5; i++) {
-    myFunc()
-} // Ejecuta la funcion 5 veces combinandola con un bucle
+    myFunc();
+} // Ejecuta la función 5 veces combinándola con un bucle.
 
 
 ///////////////////////////////////////////////////////////////////////////////
-// CON PARAMETROS
-function myFuncWithParams (name) {
-    console.log(`¡Hola, ${name}!`)
-} // Entre parentisis definimos el parametros que le pedimos
+// CON PARÁMETROS
+function myFuncWithParams(name) {
+    console.log(`¡Hola, ${name}!`);
+} // Entre paréntesis definimos el parámetro que le pedimos.
 
-myFuncWithParams ('Dani') // LLamamos a la funcion pasandole un parametro
-
-
+myFuncWithParams('Dani'); // Llamamos a la función pasándole un parámetro.
 
 
 ///////////////////////////////////////////////////////////////////////////////
-// FUNCIONES ANONIMAS
-const myAnonimusFunction = function(name) {
-    console.log(`¡Hola, ${name}!`) 
-}  // Las funciones anonimas se almacenan en constantes
+// FUNCIONES ANÓNIMAS
+const myAnonymousFunction = function(name) {
+    console.log(`¡Hola, ${name}!`);
+};  // Las funciones anónimas se almacenan en constantes.
 
-
-myAnonimusFunction('Daniel')
-
+myAnonymousFunction('Daniel');
 
 
 ///////////////////////////////////////////////////////////////////////////////
-// ARROWS FUNCTIONS
-// es una forma mas consisa de escribir funciones
+// ARROW FUNCTIONS
+// Es una forma más concisa de escribir funciones.
 
 const myFunc3 = (name) => {
-    console.log(`¡Hola, ${name}!`) 
-}
+    console.log(`¡Hola, ${name}!`);
+};
 
-myFunc3('YOYO')
-
+myFunc3('YOYO');
 
 
 ///////////////////////////////////////////////////////////////////////////////
-// PARAMETROS
+// PARÁMETROS
 function sum(a, b) {
-    console.log(a + b)
-} // le pasamos mas de un parametro separandolor por comas
+    console.log(a + b);
+} // Le pasamos más de un parámetro separándolos por comas.
 
-sum(5, 10)
-sum(5) // nos devolvera NaN porque no le estamos pasando nada en el 2º valor
+sum(5, 10);
+sum(5); // Nos devolverá NaN porque no le estamos pasando nada en el 2º valor.
 
+function defaultSum(a = 0, b = 0) {
+    console.log(a + b);
+} // Asignamos un valor por defecto a los parámetros de la función.
 
-function defautlSum(a = 0, b = 0) {
-    console.log(a + b)
-} // Asignamos un valor por defecto a los parametros de la funcion
-
-defautlSum() // devolvera 0
-defautlSum(4) //devolvera 4
-
+defaultSum(); // Devolverá 0.
+defaultSum(4); // Devolverá 4.
 
 
 ///////////////////////////////////////////////////////////////////////////////
 // RETORNO DE VALORES
-// retorna el resultado pero no imprime el resultado
+// Retorna el resultado pero no imprime el resultado.
 
 function mult(a, b) {
-    return a * b
-} // nos devuleve el valor pero no lo imprime por consola
+    return a * b;
+} // Nos devuelve el valor pero no lo imprime por consola.
 
-let result = mult(5, 10) // guardamos el resultado en una variable
-console.log(result) // imprimimos el resultado por consola
-
+let result = mult(5, 10); // Guardamos el resultado en una variable.
+console.log(result); // Imprimimos el resultado por consola.
 
 
 ///////////////////////////////////////////////////////////////////////////////
 // FUNCIONES ANIDADAS
 function extern() {
-    console.log('Funcion externa')
+    console.log('Función externa');
     function intern() {
-        console.log('Funcion interna')
+        console.log('Función interna');
     }
-    intern() // invocamos a la funcion interna solo se puede desde dentro
-} // una funcion dentro de otra funcion
+    intern(); // Invocamos a la función interna, solo se puede desde dentro.
+} // Una función dentro de otra función.
 
-extern()
-// intern() // Error: esta fuera del scope no lo podemos llamar
-
-
+extern();
+// intern(); // Error: está fuera del scope, no lo podemos llamar.
 
 
 ///////////////////////////////////////////////////////////////////////////////
 // FUNCIONES DE ORDEN SUPERIOR
-// basicamente son funciones que resiven otras funciones como argumento
+// Básicamente son funciones que reciben otras funciones como argumento.
 
 function applyFunc(func, param) {
-    func(param)
-} // pasamos una funcion y el parametro de la otra funcion
+    func(param);
+} // Pasamos una función y el parámetro de la otra función.
 
-applyFunc(myFunc3, 'Funcion de Orden Superior')
-
+applyFunc(myFunc3, 'Función de Orden Superior');
 
 
 ///////////////////////////////////////////////////////////////////////////////
 // FOREACH
-myArray = new Array(1, 2, 3, 'string', false)
+let myArray = [1, 2, 3, 'string', false];
 
 myArray.forEach(element => {
-    console.log(element)
-}) // otra forma de iterar sobre un array usando una funcion
+    console.log(element);
+}); // Otra forma de iterar sobre un array usando una función.
 
 
-// con un set:
-mySet = new Set(['frikone', 'dani', 'daniel', 35, 'dani@gmail.com'])
-mySet.forEach(element => {console.log(element)})
+// Con un set:
+let mySet = new Set(['frikone', 'dani', 'daniel', 35, 'dani@gmail.com']);
+mySet.forEach(element => {
+    console.log(element);
+});
